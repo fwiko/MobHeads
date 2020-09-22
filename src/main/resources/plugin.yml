@@ -1,0 +1,11 @@
+name: MobHeads
+version: ${project.version}
+main: me.raff.mobheads.MobHeads
+api-version: 1.8.9
+authors: [Raff]
+website: https://raffsimms.com
+commands:
+  crystalshop:
+    description: Lets people trade heads for crystals
+  itemshop:
+    description: Opens item store
