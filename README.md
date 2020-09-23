@@ -1,2 +1,2 @@
 # MobHeads
-kill mobs, get heads, get crystals, buy shit
+Mob head currency store system for **1.8.9**
