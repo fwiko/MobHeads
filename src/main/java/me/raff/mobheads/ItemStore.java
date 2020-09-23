@@ -46,11 +46,28 @@ public class ItemStore implements CommandExecutor {
     private Inventory getItemShop(Player p) {
         Inventory item_store = Bukkit.getServer().createInventory(null, 36, ChatColor.GOLD+"Item Store");
 
-        item_store.setItem(11, item("item-1"));
-        item_store.setItem(12, item("item-2"));
-        item_store.setItem(13, item("item-3"));
-        item_store.setItem(14, item("item-4"));
-        item_store.setItem(15, item("item-5"));
+        ItemStack l_glass = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)3);
+
+        item_store.setItem(10, item("item-1"));
+        item_store.setItem(11, item("item-2"));
+        item_store.setItem(12, item("item-3"));
+        item_store.setItem(13, item("item-4"));
+        item_store.setItem(14, item("item-5"));
+        item_store.setItem(15, item("item-6"));
+        item_store.setItem(16, item("item-7"));
+        item_store.setItem(19, item("item-8"));
+        item_store.setItem(20, item("item-9"));
+        item_store.setItem(21, item("item-10"));
+        item_store.setItem(22, item("item-11"));
+        item_store.setItem(23, item("item-12"));
+        item_store.setItem(24, item("item-13"));
+        item_store.setItem(25, item("item-14"));
+
+        for (int i = 0; i < item_store.getSize(); i++) {
+            if (item_store.getItem(i) == null || item_store.getItem(i).getType().equals(Material.AIR)) {
+                item_store.setItem(i, l_glass);
+            }
+        }
 
         return item_store;
     }
