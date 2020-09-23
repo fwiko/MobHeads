@@ -94,7 +94,7 @@ public class CrystalShop implements CommandExecutor {
 
             // Inventory
 
-            ItemStack l_glass = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)3);
+            ItemStack l_glass = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)2);
 
             Inventory crystal_store = getCrystalShop(p);
 

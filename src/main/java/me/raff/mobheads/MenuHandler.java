@@ -82,6 +82,33 @@ public class MenuHandler implements Listener {
                 } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-5"+"."+"name"))) {
                     p.closeInventory();
                     Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-5" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-6"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-6" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-7"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-7" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-8"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-8" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-9"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-9" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-10"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-10" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-11"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-11" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-12"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-12" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-13"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-13" + "." + "executes"), p.getName()));
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().equals(ChatColor.AQUA+storeConfig.get().getString("item-14"+"."+"name"))) {
+                    p.closeInventory();
+                    Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), String.format(storeConfig.get().getString("item-14" + "." + "executes"), p.getName()));
                 }
             } catch (Exception exception) {
                 //
